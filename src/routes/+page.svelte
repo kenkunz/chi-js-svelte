@@ -1,13 +1,11 @@
-<main>
-	<section>
-		<h1>Slide 1 Title</h1>
-		<ul>
-			<li>Slide bullet 1</li>
-			<li>Slide bullet 2</li>
-		</ul>
-	</section>
+<script>
+	import Slide1 from '$lib/slides/Slide1.svelte';
+</script>
 
-	<section>
+<main>
+	<Slide1 />
+
+	<section class="slide">
 		<h1>Slide 2 Title</h1>
 		<div>Some slide content.</div>
 	</section>
@@ -24,7 +22,8 @@
 		font-size: 2.5vw;
 	}
 
-	section {
+	/* using :where for zero-specificity defaults */
+	:where(main) :global :where(.slide) {
 		scroll-snap-align: start;
 		height: 100vh;
 		padding: 1rem;
@@ -33,10 +32,20 @@
 		justify-items: center;
 		align-items: start;
 		background-color: white;
+		background-size: cover;
 
 		& ul,
 		& div {
 			min-width: 50%;
+		}
+
+		& h1,
+		& h2,
+		& h3,
+		& h4,
+		& h5,
+		& h6 {
+			margin-block: 1rem;
 		}
 	}
 </style>
