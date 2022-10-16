@@ -2,11 +2,17 @@
 
 <style lang="postcss" global>
 	:root {
-		font: 16px/20px 'Helvetica Neue', Helvetica, Arial, sans-serif;
+		font: 16px 'Helvetica Neue', Helvetica, Arial, sans-serif;
+		line-height: 1.25;
 	}
 
-	input,
-	button {
-		font: inherit;
+	*,
+	*::before,
+	*::after {
+		box-sizing: border-box;
+	}
+
+	body {
+		margin: 0;
 	}
 </style>
