@@ -1,11 +1,13 @@
 <script>
 	import Slide1 from '$lib/slides/Slide1.svelte';
 	import Slide2 from '$lib/slides/Slide2.svelte';
+	import Slide3 from '$lib/slides/Slide3.svelte';
 </script>
 
 <main>
 	<Slide1 />
 	<Slide2 />
+	<Slide3 />
 </main>
 
 <style lang="postcss">
