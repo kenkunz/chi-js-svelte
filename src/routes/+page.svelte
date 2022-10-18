@@ -27,7 +27,6 @@
 		height: 100vh;
 		padding: 1rem;
 		display: grid;
-		grid-template-rows: auto 1fr;
 		justify-items: center;
 		align-items: start;
 		background-color: white;

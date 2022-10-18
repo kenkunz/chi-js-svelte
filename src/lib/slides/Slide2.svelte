@@ -26,7 +26,6 @@
 	section {
 		padding: 0;
 		grid-template-columns: 1fr 1fr;
-		grid-template-rows: auto;
 	}
 
 	.photo {
