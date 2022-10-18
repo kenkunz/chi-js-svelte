@@ -2,7 +2,7 @@
 
 <style lang="postcss" global>
 	:root {
-		font: 16px 'Helvetica Neue', Helvetica, Arial, sans-serif;
+		font: 16px Overpass, 'Helvetica Neue', Helvetica, Arial, sans-serif;
 		line-height: 1.25;
 	}
 

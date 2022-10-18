@@ -14,7 +14,7 @@
 
 <section class="slide" id="slide-1" style:background-image="url({background})">
 	<h1>Chicago JavaScript Meetup</h1>
-	<h2>Svelte & SvelteKit 101</h2>
+	<h2>Svelte & Svelte<span class="kit">Kit</span> 101</h2>
 
 	<svg viewBox="0 0 103 124">
 		{#if showSvg}
@@ -28,20 +28,29 @@
 	<h3>October 18, 2022</h3>
 </section>
 
-<style>
+<style lang="postcss">
 	section {
 		color: white;
 		padding: 2rem;
 	}
 
 	h1 {
-		font-size: 5rem;
-		font-weight: 100;
-		letter-spacing: 0.05em;
+		font-size: 6rem;
+		font-weight: 200;
+		letter-spacing: 0.02em;
 	}
 
 	h2 {
-		font-weight: 500;
+		background: #eeeeee88;
+		padding: 2rem 2rem 1rem 2rem;
+		font-weight: 400;
+		letter-spacing: 0.1em;
+		text-transform: uppercase;
+		color: #444;
+
+		& .kit {
+			color: #eee;
+		}
 	}
 
 	svg {
