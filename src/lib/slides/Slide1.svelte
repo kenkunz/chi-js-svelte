@@ -12,7 +12,7 @@
 	});
 </script>
 
-<section class="slide" style:background-image="url({background})">
+<section class="slide" id="slide-1" style:background-image="url({background})">
 	<h1>Chicago JavaScript Meetup</h1>
 	<h2>Svelte & SvelteKit 101</h2>
 

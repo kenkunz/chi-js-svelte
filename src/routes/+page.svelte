@@ -1,14 +1,11 @@
 <script>
 	import Slide1 from '$lib/slides/Slide1.svelte';
+	import Slide2 from '$lib/slides/Slide2.svelte';
 </script>
 
 <main>
 	<Slide1 />
-
-	<section class="slide">
-		<h1>Slide 2 Title</h1>
-		<div>Some slide content.</div>
-	</section>
+	<Slide2 />
 </main>
 
 <style lang="postcss">
@@ -33,6 +30,7 @@
 		align-items: start;
 		background-color: white;
 		background-size: cover;
+		background-repeat: no-repeat;
 
 		& ul,
 		& div {
