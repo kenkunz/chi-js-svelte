@@ -1,6 +1,7 @@
 <script>
 	import profilePic from '$lib/assets/ken-1.jpg';
 	import zenthropicLogo from '$lib/assets/zenthropic-logo.svg';
+	import svelteFsmLogo from '$lib/assets/svelte-fsm-logo.png';
 	import tradingStrategyLogo from '$lib/assets/trading-strategy-logo.svg';
 </script>
 
@@ -10,7 +11,9 @@
 	</div>
 	<div class="info">
 		<div class="zenthropic">
-			<img src={zenthropicLogo} alt="zenthropic logo" />
+			<a href="https://zenthropic.com">
+				<img src={zenthropicLogo} alt="zenthropic logo" />
+			</a>
 			<div class="sfh">
 				<span class="code-1">&lt;software</span>
 				<span class="code-2">for</span><span class="code-3">=</span><span class="code-4"
@@ -18,7 +21,12 @@
 				><span class="code-1">&gt;</span>
 			</div>
 		</div>
-		<img src={tradingStrategyLogo} alt="Trading Strategy logo" />
+		<a href="https://tradingstrategy.ai">
+			<img src={tradingStrategyLogo} alt="Trading Strategy logo" />
+		</a>
+		<a href="https://github.com/kenkunz/svelte-fsm">
+			<img src={svelteFsmLogo} alt="Svelte FSM logo" style:width="15vw" />
+		</a>
 	</div>
 </section>
 
@@ -46,7 +54,7 @@
 	.info {
 		height: 100%;
 		display: grid;
-		grid-template-rows: 1fr 1fr;
+		grid-template-rows: 1fr 1fr 1fr;
 		place-items: center;
 
 		& img {
