@@ -3,6 +3,7 @@
 	import Slide2 from '$lib/slides/Slide2.svelte';
 	import Slide3 from '$lib/slides/Slide3.svelte';
 	import Slide4 from '$lib/slides/Slide4.svelte';
+	import Slide5 from '$lib/slides/Slide5.svelte';
 </script>
 
 <main>
@@ -10,6 +11,7 @@
 	<Slide2 />
 	<Slide3 />
 	<Slide4 />
+	<Slide5 />
 </main>
 
 <style lang="postcss">
