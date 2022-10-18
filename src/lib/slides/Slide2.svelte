@@ -37,7 +37,7 @@
 
 		& h1 {
 			color: #666d7b;
-			font-size: 5vw;
+			font-size: 4vw;
 			font-weight: 100;
 			text-align: center;
 		}
