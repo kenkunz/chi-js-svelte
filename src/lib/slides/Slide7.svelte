@@ -6,7 +6,9 @@
 	</h1>
 
 	<ul>
-		<li>Declarative / Reactive</li>
+		<li>
+			Declarative / <a href="https://svelte.dev/blog/svelte-3-rethinking-reactivity">Reactive</a>
+		</li>
 		<li>Component-Based</li>
 		<li>HTML-like template syntax</li>
 		<li>TypeScript support</li>
@@ -48,5 +50,13 @@
 	ul {
 		display: grid;
 		gap: 1em;
+	}
+
+	a {
+		color: inherit;
+
+		&:not(:hover) {
+			text-decoration: none;
+		}
 	}
 </style>
