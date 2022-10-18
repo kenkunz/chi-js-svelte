@@ -5,9 +5,9 @@
 	<h2>
 		<div class="svelte">
 			<span><span class="kit-1">Svelte</span><span class="kit-2">kit</span></span>
-			:<span>Svelte</span>
+			<span style:color="black">:</span><span>Svelte</span>
 		</div>
-		<div>::</div>
+		<div>: :</div>
 		<div class="next-react">
 			<svg viewBox="0 0 394 80" xmlns="http://www.w3.org/2000/svg"
 				><title>Next.js Logo</title><path
@@ -77,7 +77,7 @@
 	h2 {
 		width: 100%;
 		margin: 0;
-		padding: 0.5em 1em 0.25em 1em;
+		padding: 1em 1em 0.75em 1em;
 		display: grid;
 		grid-auto-flow: column;
 		align-items: start;
