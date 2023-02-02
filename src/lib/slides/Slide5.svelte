@@ -6,7 +6,7 @@
 
 	<ul>
 		<li>
-			<a href="https://2021.stateofjs.com/en-US/libraries/front-end-frameworks"
+			<a href="https://2022.stateofjs.com/en-US/libraries/front-end-frameworks/"
 				>State of JS Survey</a
 			>
 		</li>
@@ -19,7 +19,12 @@
 		<li><a href="https://npmtrends.com/svelte">NPM Download Trends</a></li>
 		<li><a href="https://svelte.dev/">Who's using Svelte?</a></li>
 		<li><a href="https://youtu.be/kMlkCYL9qo0">Svelte Origins (documentary)</a></li>
-		<li><a href="https://youtu.be/A8jkJTWacow?t=29647">SvelteKit RC</a></li>
+		<li>
+			SvelteKit
+			<a href="https://youtu.be/A8jkJTWacow?t=29647"><span class="strike">RC</span></a>
+			<a href="https://www.youtube.com/live/N4BRVkQVoMc?feature=share&t=428">1.0</a>
+			🎉
+		</li>
 	</ul>
 </section>
 
@@ -62,5 +67,9 @@
 		&:not(:hover) {
 			text-decoration: none;
 		}
+	}
+
+	.strike {
+		text-decoration: line-through;
 	}
 </style>
